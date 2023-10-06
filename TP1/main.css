@@ -1,0 +1,36 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.height {
+    min-height: 50vh;
+}
+
+.my-list-elem {
+    background: transparent !important;
+    border: none !important;
+    margin-left: 60px;
+}
+
+.list-group-ordered {
+    list-style: decimal inside !important;
+}
+
+.list-group-item-ordered {
+    display: list-item !important;
+}
+
+.color-picture {
+    background: url(http://www.theodora.com/gif4/html_colors.gif)center;
+}
+
+/* @media screen and (max-width: 845px) {
+
+    
+} */
+
+.custom-bg {
+    background-color: #242424;
+    /* Outros estilos, se necessário */
+}
