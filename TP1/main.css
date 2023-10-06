@@ -3,6 +3,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+#cor-rosa{
+    color: #F26DF0;
+}
+
 .height {
     min-height: 50vh;
 }
@@ -22,7 +26,7 @@ body {
 }
 
 .color-picture {
-    background: url(http://www.theodora.com/gif4/html_colors.gif)center;
+    background: url(https://static.wikia.nocookie.net/aesthetics/images/1/10/SHOEGAZER_ALIVE.png/revision/latest?cb=20201020224419)center;
 }
 
 /* @media screen and (max-width: 845px) {
