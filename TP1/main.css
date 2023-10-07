@@ -3,9 +3,11 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-#cor-rosa{
+#cor-texto{
     color: #F26DF0;
 }
+
+
 
 .height {
     min-height: 50vh;
@@ -37,4 +39,9 @@ body {
 .custom-bg {
     background-color: #242424;
     /* Outros estilos, se necessário */
+}
+
+.accordion-body {
+    background-color: #242424;
+    color: #fff; /* Alterar a cor do texto para branco, para melhor legibilidade */
 }
