@@ -408,23 +408,23 @@
             <!-- end of section-title -->
             <div class="row">
                 <div class="col text-center">
-                    <button type="button" class="btn" data-bs-container="body" data-bs-toggle="popover"
-                        data-bs-placement="top" data-bs-content="Site indisponivel, manutenção">
-                        <i class="fab fa-facebook fa-3x text-primary m-2"></i>
-                    </button>
-                    <button type="button" class="btn" data-bs-container="body" data-bs-toggle="popover"
-                        data-bs-placement="top" data-bs-content="Site indisponivel, manutenção">
-                        <i class="fab fa-twitter fa-3x text-primary m-2"></i>
-                    </button>
-                    <button type="button" class="btn" data-bs-container="body" data-bs-toggle="popover"
-                        data-bs-placement="top" data-bs-content="Site indisponivel, manutenção">
-                        <i class="fab fa-instagram fa-3x text-primary m-2"></i>
-                    </button>
-                    <button type="button" class="btn" data-bs-container="body" data-bs-toggle="popover"
-                        data-bs-placement="top" data-bs-content="Site indisponivel, manutenção">
-                        <i class="fab fa-reddit fa-3x text-primary m-2"></i>
-                    </button>
 
+                    <a tabindex="0" class="btn btn-lg" role="button" data-bs-toggle="popover" data-bs-trigger="focus"
+                        data-bs-title="Site indisponivel" data-bs-content="Descuple, estamos em manutenção">
+                        <i class="fab fa-facebook fa-3x text-primary m-2"></i>
+                    </a>
+                    <a tabindex="0" class="btn btn-lg" role="button" data-bs-toggle="popover" data-bs-trigger="focus"
+                        data-bs-title="Site indisponivel" data-bs-content="Descuple, estamos em manutenção">
+                        <i class="fab fa-twitter fa-3x text-primary m-2"></i>
+                    </a>
+                    <a tabindex="0" class="btn btn-lg" role="button" data-bs-toggle="popover" data-bs-trigger="focus"
+                        data-bs-title="Site indisponivel" data-bs-content="Descuple, estamos em manutenção">
+                        <i class="fab fa-instagram fa-3x text-primary m-2"></i>
+                    </a>
+                    <a tabindex="0" class="btn btn-lg" role="button" data-bs-toggle="popover" data-bs-trigger="focus"
+                        data-bs-title="Site indisponivel" data-bs-content="Descuple, estamos em manutenção">
+                        <i class="fab fa-reddit fa-3x text-primary m-2"></i>
+                    </a>
 
                 </div>
             </div>
@@ -451,6 +451,11 @@
         var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
         var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
             return new bootstrap.Popover(popoverTriggerEl)
+        })
+    </script>
+    <script>
+        const popover = new bootstrap.Popover('.popover-dismiss', {
+            trigger: 'focus'
         })
     </script>
 </body>
