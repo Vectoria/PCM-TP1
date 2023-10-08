@@ -8,7 +8,6 @@ body {
 }
 
 
-
 .height {
     min-height: 50vh;
 }
@@ -28,9 +27,27 @@ body {
 }
 
 .color-picture {
-    background: url(https://static.wikia.nocookie.net/aesthetics/images/1/10/SHOEGAZER_ALIVE.png/revision/latest?cb=20201020224419)center;
+    background: url(https://static.wikia.nocookie.net/aesthetics/images/c/c9/MBV_Billinda_Butcher_1.gif/revision/latest?cb=20220407024428)center;
 }
 
+.accordion{
+    --bs-accordion-btn-bg: #242424;
+    --bs-accordion-active-bg: #242424;
+    --bs-accordion-bg: #242424;
+    --bs-accordion-color: #F26DF0;
+    --bs-accordion-border-color: #F26DF0;
+    --bs-accordion-btn-focus-box-shadow: none;
+    --bs-accordion-active-color: #d9ea56;
+}
+.accordion-button:not(.collapsed) {
+    box-shadow: none;
+}
+
+
+/*
+.accordion-button::after{
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16"><path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/></svg>')
+}*/
 /* @media screen and (max-width: 845px) {
 
     
@@ -40,8 +57,9 @@ body {
     background-color: #242424;
     /* Outros estilos, se necessário */
 }
-
+/*
 .accordion-body {
     background-color: #242424;
-    color: #fff; /* Alterar a cor do texto para branco, para melhor legibilidade */
+    color: #fff; 
 }
+*/
