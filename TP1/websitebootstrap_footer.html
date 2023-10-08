@@ -25,14 +25,22 @@
 
 <body>
     <!-- navbar -->
-    <nav class="navbar py-3 navbar-dark navbar-expand-sm custom-bg">
+
+    <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+            <h5 class="text-white h4">Collapsed content</h5>
+            <span class="text-muted">Toggleable via the navbar brand.</span>
+        </div>
+    </div>
+
+    <nav class="navbar py-3 navbar-dark navbar-expand-md custom-bg">
 
         <!-- logo -->
         <a href="#" class="navbar-brand h1">
-            <h1> <img src="img/guitar-pedal.png" width="50" height="50" /> Shoegaze World</h1>
+            <h1 id="cor-texto"> <img src="img/guitar-pedal.png" width="50" height="50" /> Shoegaze World</h1>
         </a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLinks">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon text-primary"></span>
         </button>
 
@@ -183,7 +191,7 @@
                 <div class="accordion accordion-flush" id="accordionFlushExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-headingOne">
-                            <button class="accordion-button collapsed text-warning mb-0" type="button"
+                            <button class="accordion-button collapsed text-warning mb-0 fs-3" type="button"
                                 data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
                                 aria-controls="flush-collapseOne">
                                 Influencias
@@ -208,7 +216,7 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-headingTwo">
-                            <button class="accordion-button collapsed text-warning mb-0" type="button"
+                            <button class="accordion-button collapsed text-warning mb-0 fs-3" type="button"
                                 data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
                                 aria-controls="flush-collapseTwo">
                                 Parecidos
@@ -229,7 +237,7 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-headingThree">
-                            <button class="accordion-button collapsed text-warning mb-0" type="button"
+                            <button class="accordion-button collapsed text-warning mb-0 fs-3" type="button"
                                 data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false"
                                 aria-controls="flush-collapseThree">
                                 Fusões
@@ -364,7 +372,7 @@
     </section>
     <!-- end of images section -->
 
-  
+
 
     <!-- footer section -->
     <footer id="footer" class="bg-dark">
