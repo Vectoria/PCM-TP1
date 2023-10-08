@@ -21,71 +21,73 @@
     <!-- My CSS -->
     <link rel="stylesheet" href="main.css">
 
-    
+
 
 </head>
 
 <body>
-    
-    <!-- navbar -->
 
-    <div class="collapse" id="navbarToggleExternalContent">
-        <div id="navbarLinks">
-            <div class="p-4 custom-bg">
-                <ul class="navbar-nav text-left">
+    <!-- navbar -->
+    <div class="container-flex">
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div id="navbarLinks">
+                <div class="p-4 custom-bg">
+                    <ul class="navbar-nav text-left">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link text-warning mb-0">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#historia" class="nav-link text-warning mb-0">Historia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#generos" class="nav-link text-warning mb-0">Géneros Relacionaveis</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#ordered" class="nav-link text-warning mb-0">Ordered</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#image" class="nav-link text-warning mb-0">Images</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar py-3 navbar-dark navbar-expand-md custom-bg">
+
+            <!-- logo -->
+            <a href="#" class="navbar-brand h1">
+                <h1 id="cor-texto"> <img src="img/guitar-pedal.png" width="50" height="50" /> Shoegaze World</h1>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-primary"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarLinks">
+                <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a href="#home" class="nav-link text-warning mb-0">Home</a>
+                        <a href="#home" type="button" class="nav-link btn btn-outline-secondary">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#historia" class="nav-link text-warning mb-0">Historia</a>
+                        <a href="#historia" type="button" class="nav-link btn btn-outline-secondary"">Historia</a>
+                </li>
+                <li class=" nav-item">
+                            <a href="#generos" type="button" class="nav-link btn btn-outline-secondary">Géneros
+                                Relacionaveis</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#generos" class="nav-link text-warning mb-0">Géneros Relacionaveis</a>
+                        <a href="#ordered" type="button" class="nav-link btn btn-outline-secondary">Ordered</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#ordered" class="nav-link text-warning mb-0">Ordered</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#image" class="nav-link text-warning mb-0">Images</a>
+                        <a href="#image" type="button" class="nav-link btn btn-outline-secondary">Images</a>
                     </li>
                 </ul>
             </div>
-        </div>
+        </nav>
     </div>
-
-    <nav class="navbar py-3 navbar-dark navbar-expand-md custom-bg">
-
-        <!-- logo -->
-        <a href="#" class="navbar-brand h1">
-            <h1 id="cor-texto"> <img src="img/guitar-pedal.png" width="50" height="50" /> Shoegaze World</h1>
-        </a>
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon text-primary"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarLinks">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a href="#home" type="button" class="nav-link btn btn-outline-secondary" >Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#historia" type="button" class="nav-link btn btn-outline-secondary"">Historia</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#generos" type="button" class="nav-link btn btn-outline-secondary">Géneros Relacionaveis</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#ordered" type="button" class="nav-link btn btn-outline-secondary">Ordered</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#image" type="button" class="nav-link btn btn-outline-secondary">Images</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
     <!-- end of navbar -->
 
     <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -127,7 +129,7 @@
             <span class="sr-only">Next</span>
         </a>
     </div>  -->
-
+    <!-- <div class="main">-->
     <div class="container-flex">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
             <div class="carousel-indicators">
@@ -184,11 +186,13 @@
                             </h1>
                             <p></p>
                             <p class="text" id="cor-texto">
-                                Nascido nos meados da decada 80, na Irlanda e no Reino Unido, o Shoegaze é um subgênero
+                                Nascido nos meados da decada 80, na Irlanda e no Reino Unido, o Shoegaze é um
+                                subgênero
                                 do indie e rock alternativo, que consiste numa mistura fluída de vocais obscuros,
                                 distorções, efeitos de guitarra, feedback e volume avassalador.
                             </p>
-                            <p class="text" id="cor-texto">O subgenero geralmente fala de relacionamentos, desabafos e
+                            <p class="text" id="cor-texto">O subgenero geralmente fala de relacionamentos, desabafos
+                                e
                                 por vezes, os fas do Shoegaze relatam
                                 o sentimento do trascendental.</p>
                         </div>
@@ -280,6 +284,7 @@
             </div>
     </section>
 
+    
 
     <!-- Unordered section -->
     <section id="unordered" class="custom-bg border-bottom border-warning rounded">
@@ -290,16 +295,20 @@
                     <h2 class="text-warning mb-0">
                         Unordered list Tag
                     </h2>
-                    <p class="text-white">The language is made up of a set of codes and symbols that will generate on
+                    <p class="text-white">The language is made up of a set of codes and symbols that will generate
+                        on
                         the browser:</p>
                     <ul class="list-group list-group-flush bg-transparent text-white text-left">
                         <li class="list-group-item my-list-elem"> <i class="fa fa-angle-right text-white"></i> Text;
                         </li>
-                        <li class="list-group-item my-list-elem"> <i class="fa fa-angle-right text-white"></i> Images;
+                        <li class="list-group-item my-list-elem"> <i class="fa fa-angle-right text-white"></i>
+                            Images;
                         </li>
-                        <li class="list-group-item my-list-elem"> <i class="fa fa-angle-right text-white"></i> Sounds;
+                        <li class="list-group-item my-list-elem"> <i class="fa fa-angle-right text-white"></i>
+                            Sounds;
                         </li>
-                        <li class="list-group-item my-list-elem"> <i class="fa fa-angle-right text-white"></i> Videos;
+                        <li class="list-group-item my-list-elem"> <i class="fa fa-angle-right text-white"></i>
+                            Videos;
                         </li>
                         <li class="list-group-item my-list-elem"> <i class="fa fa-angle-right text-white"></i>
                             Animations;</li>
@@ -322,16 +331,20 @@
                     <h2 class="text-warning mb-0">
                         Ordered list Tag
                     </h2>
-                    <p class="text-white">The main steps that shoulb be done before starting to implement a website are:
+                    <p class="text-white">The main steps that shoulb be done before starting to implement a website
+                        are:
                     </p>
                     <ol class="list-group list-group-ordered list-group-flush bg-transparent text-white text-left">
                         <li class="list-group-item list-group-item-ordered my-list-elem"> Start listing the main
                             elements (content) to put in of your a website;</li>
-                        <li class="list-group-item list-group-item-ordered my-list-elem"> Organize the elements in pages
+                        <li class="list-group-item list-group-item-ordered my-list-elem"> Organize the elements in
+                            pages
                             puting together related elements;</li>
-                        <li class="list-group-item list-group-item-ordered my-list-elem"> Create the struture diagram
+                        <li class="list-group-item list-group-item-ordered my-list-elem"> Create the struture
+                            diagram
                             (hyperlinks between pages) of the website;</li>
-                        <li class="list-group-item list-group-item-ordered my-list-elem"> Build the layout of each page.
+                        <li class="list-group-item list-group-item-ordered my-list-elem"> Build the layout of each
+                            page.
                         </li>
                     </ol>
                 </div>
@@ -432,6 +445,7 @@
             </div>
         </div>
     </footer>
+    <!--  </div>-->
     <!-- end of footer section -->
 
     <!-- Optional JavaScript -->
@@ -455,6 +469,7 @@
             return new bootstrap.Popover(popoverTriggerEl)
         })
     </script>
+
 </body>
 
 </html>
