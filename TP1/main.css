@@ -29,7 +29,7 @@ body {
 
 .color-picture {
     background: url(https://static.wikia.nocookie.net/aesthetics/images/c/c9/MBV_Billinda_Butcher_1.gif/revision/latest?cb=20220407024428)center;
-    
+
 }
 
 .accordion {
@@ -56,10 +56,12 @@ body {
 .card {
     border: 2px solid #F26DF0;
     background-color: #242424;
- } /*https://www.shecodes.io/athena/4119-changing-the-color-of-bootstrap-card-borders*/
- .card-header{
+}
+
+/*https://www.shecodes.io/athena/4119-changing-the-color-of-bootstrap-card-borders*/
+.card-header {
     border: 1px solid #F26DF0;
- }
+}
 
 
 /*
@@ -75,16 +77,22 @@ body {
     background-color: #242424;
     /* Outros estilos, se necessário */
 }
-#btn-topzao{
+
+#btn-topzao {
     position: fixed;
-    bottom:20px;
-    right:20px;
+    bottom: 20px;
+    right: 20px;
     z-index: 99;
     background-color: #413f3fa7;
-    cursor:pointer;
+    cursor: pointer;
     padding: 25px;
     border-radius: 4px;
 }
+
+body {
+    overflow-x: hidden;
+}
+
 /*
 .main {
     margin-top: 110px; 
