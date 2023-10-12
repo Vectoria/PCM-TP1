@@ -29,6 +29,7 @@ body {
 
 .color-picture {
     background: url(https://static.wikia.nocookie.net/aesthetics/images/c/c9/MBV_Billinda_Butcher_1.gif/revision/latest?cb=20220407024428)center;
+    
 }
 
 .accordion {
@@ -81,7 +82,7 @@ body {
     z-index: 99;
     background-color: #413f3fa7;
     cursor:pointer;
-    padding: 15px;
+    padding: 30px;
     border-radius: 4px;
 }
 /*
