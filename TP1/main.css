@@ -77,12 +77,12 @@ body {
 }
 #btn-topzao{
     position: fixed;
-    bottom:15px;
-    right:15px;
+    bottom:20px;
+    right:20px;
     z-index: 99;
     background-color: #413f3fa7;
     cursor:pointer;
-    padding: 30px;
+    padding: 25px;
     border-radius: 4px;
 }
 /*
