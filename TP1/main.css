@@ -64,11 +64,13 @@ body {
 }
 
 #popover-trigger {
-    color: #F26DF0; /* Cor padrão (azul) para o ícone */
+    color: #F26DF0;
+    /* Cor padrão (azul) para o ícone */
 }
 
 #popover-trigger:hover {
-    color: #FFC107; /* Cor quando o cursor está sobre o botão */
+    color: #FFC107;
+    /* Cor quando o cursor está sobre o botão */
 }
 
 
@@ -100,6 +102,11 @@ body {
 body {
     overflow-x: hidden;
 }
+
+p {
+    text-indent: 3ch;
+}
+
 
 /*
 .main {
