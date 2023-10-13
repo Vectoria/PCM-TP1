@@ -63,6 +63,14 @@ body {
     border: 1px solid #F26DF0;
 }
 
+#popover-trigger {
+    color: #F26DF0; /* Cor padrão (azul) para o ícone */
+}
+
+#popover-trigger:hover {
+    color: #FFC107; /* Cor quando o cursor está sobre o botão */
+}
+
 
 /*
 .accordion-button::after{
