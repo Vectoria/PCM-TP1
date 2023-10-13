@@ -99,7 +99,7 @@ body {
     border-radius: 4px;
 }
 
-body {
+html, body {
     overflow-x: hidden;
 }
 
