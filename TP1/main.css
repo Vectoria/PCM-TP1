@@ -73,7 +73,12 @@ body {
     /* Cor quando o cursor está sobre o botão */
 }
 
-
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
 
 @media screen and (max-width: 767px) {
     p {
