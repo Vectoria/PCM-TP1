@@ -128,7 +128,20 @@ body {
 ::-webkit-scrollbar-thumb:hover {
     background-color: #b73fb5;
 }
+input[type=email]{
+    border: none;
+    background-color: #242424;
+    border-bottom: #b73fb5 2px solid;
+    box-shadow: none;
+    outline: none;
+    color: #F26DF0;
+}
 
+input[type=reset]{
+    border-radius: 10px;
+    background-color: #323232;
+    color: #F26DF0;
+}
 
 /*
 .main {
