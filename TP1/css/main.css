@@ -31,7 +31,7 @@ body {
     background: url(../img/MBV_Billinda_Butcher_1.gif)center;
 
 }
-
+/* Costomização nos accordions*/
 .accordion {
     --bs-accordion-btn-bg: #242424;
     --bs-accordion-active-bg: #242424;
@@ -53,6 +53,7 @@ body {
     background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FFC107'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
 }
 
+/*Costumização nos cards*/
 .card {
     border: 2px solid #F26DF0;
     background-color: #242424;
@@ -63,16 +64,16 @@ body {
     border: 1px solid #F26DF0;
 }
 
+/*Costumização nos popovers*/
 #popover-trigger {
     color: #F26DF0;
-    /* Cor padrão (azul) para o ícone */
 }
 
 #popover-trigger:hover {
     color: #FFC107;
-    /* Cor quando o cursor está sobre o botão */
 }
 
+/*Costumização na navbar*/
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
@@ -80,6 +81,7 @@ body {
     box-shadow: none;
 }
 
+/*Costumização em telas de 767 pixeis*/
 @media screen and (max-width: 767px) {
     p {
         margin-left: 1em;
@@ -91,11 +93,12 @@ body {
 
 }
 
+/*usar quando tiver algum elemento que necessida de ser preenchido*/
 .custom-bg {
     background-color: #242424;
-    /* Outros estilos, se necessário */
 }
 
+/*Botão que fica no canto inferior direito e sua costumização*/
 #btn-topzao {
     position: fixed;
     bottom: 20px;
@@ -103,15 +106,17 @@ body {
     z-index: 99;
     background-color: #413f3fa7;
     cursor: pointer;
-    padding: 25px;
+    padding: 20px;
     border-radius: 4px;
 }
 
+/*esconder a barra horizontal*/
 html,
 body {
     overflow-x: hidden;
 }
 
+/*Costumização na barra vertical*/
 ::-webkit-scrollbar {
     width: 5px;
 }
@@ -128,6 +133,8 @@ body {
 ::-webkit-scrollbar-thumb:hover {
     background-color: #b73fb5;
 }
+
+/*Costumização nos forums*/
 input[type=email]{
     border: none;
     background-color: #242424;
@@ -143,6 +150,7 @@ input[type=reset]{
     color: #F26DF0;
 }
 
+/*Dar zoom as imagens*/
 #zoom:hover{
     transform: scale(1.1);
 }
