@@ -143,6 +143,10 @@ input[type=reset]{
     color: #F26DF0;
 }
 
+#zoom:hover{
+    transform: scale(1.1);
+}
+
 /*
 .main {
     margin-top: 110px; 
